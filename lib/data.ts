@@ -1,10 +1,10 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import { FaGoogle } from "react-icons/fa";
+import { FaMicrosoft } from "react-icons/fa";
+import TwitterSentiment from "@/public/project1.png";
+import BigBarStrategyImg from "@/public/project2.png";
+import TopMateImg from "@/public/project3.jpeg";
 
 export const links = [
   {
@@ -35,73 +35,91 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Problem Setter Intern",
+    location: "Coding Ninjas",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Curating and testing several CP Problems for various Hiring Challenges and the CodeStudio Platform.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2021 -7 Months",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Software Engineer Intern",
+    location: "Microsoft",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Worked on SCRIPT MEO (Microsoft Email Orchestrator) Endpoints Integration using C# and .NET in Supply Chain Cogs Crew Organization. Got a PPO on completion of my internship.",
+    icon: React.createElement(FaMicrosoft),
+    date: "2022 -2 Months",
+  },
+  {
+    title: "Software Engineer Intern",
+    location: "Media.net",
+    description:
+      "Working in Auto-Template Ads Team on Image Generation from text, Animating Images and Keyword Extraction from Ad Titles to achieve maximum clicks on an Ad. Got a Full-time on completion of my internship.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 -6 Months",
+  },
+  {
+    title: "Software Engineer",
+    location: "Microsoft",
+    description:
+      "Working on Microsoft Agreements team to streamline Contract Agreements and speed up the process by 5x.",
+    icon: React.createElement(FaMicrosoft),
+    date: "2023-24 -7 Months",
+  },
+  {
+    title: "Software Engineer II",
+    location: "Google",
+    description:
+      "Working in the Google GEO team to rollout ML models to prevent fraud data publication on Google Maps.",
+    icon: React.createElement(FaGoogle),
+    date: "2024 - Present ",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Twitter Sentiment Analysis",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Prepared a manual Dataset of size around 3.5k with comments, posts and images from Twitter for training and testing purpose.",
+    tags: ["Python", "X API", "Matplotlib", "Data Visualization"],
+    imageUrl: TwitterSentiment,
   },
   {
-    title: "rmtDev",
+    title: "Big-Bar-Strategy",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Implemented Big Bar Strategy, achieving 52% strike rate and 43k profit trading 2 lots over 4 months. Proficient in strategy implementation and backtesting..",
+    tags: [
+      "Backtesting",
+      "Analysis",
+      "Risk Management",
+      "Tools",
+      "Strategy Development",
+    ],
+    imageUrl: BigBarStrategyImg,
   },
   {
-    title: "Word Analytics",
+    title: "Helping Students on TopMate",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "I am on the verge of completing 100 mentorship sessions on Topmate.",
+    tags: ["Programming", "Communication", "Coding", "Guidance", "Tech"],
+    imageUrl: TopMateImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
-  "Framer Motion",
+  "C",
+  "C++",
+  "Java",
+  "Javascript",
+  "Data Structures and Algorithms",
+  " Software Design",
+  "Object Oriented Programming",
+  "Operating System",
+  "Database Management Systems",
+  "Computer Networking",
+  "Linux/Unix",
+  "Git",
+  "TCP/IP",
+  "Distributed System",
 ] as const;
